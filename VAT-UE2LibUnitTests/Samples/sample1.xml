@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Deklaracja xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Naglowek>
+    <KodFormularza kodSystemowy="VAT-UE (2)">VAT-UE</KodFormularza>
+    <WariantFormularza>2</WariantFormularza>
+    <Rok>2012</Rok>
+    <Miesiac>8</Miesiac>
+    <CelZlozenia>3</CelZlozenia>
+    <KodUrzedu>1813</KodUrzedu>
+  </Naglowek>
+  <Podmiot1 rola="Podatnik">
+    <OsobaFizyczna>
+      <NIP>123-456-32-18</NIP>
+      <ImiePierwsze>Bartosz</ImiePierwsze>
+      <Nazwisko>Frąckowiak</Nazwisko>
+      <DataUrodzenia>2012-11-26</DataUrodzenia>
+      <PESEL>88888888888888</PESEL>
+    </OsobaFizyczna>
+    <AdresZamieszkaniaSiedziby rodzajAdresu="RAD">
+      <AdresPol>
+        <KodKraju>PL</KodKraju>
+        <Wojewodztwo>Kuj-Pom</Wojewodztwo>
+        <Powiat>Bydgoski</Powiat>
+        <Gmina>Bydgoszcz</Gmina>
+        <Ulica>xxxxxxxxxx 33</Ulica>
+        <NrDomu>3</NrDomu>
+        <NrLokalu>3</NrLokalu>
+        <Miejscowosc>Bydgoszcz</Miejscowosc>
+        <KodPocztowy>85-200</KodPocztowy>
+        <Poczta>Polska</Poczta>
+      </AdresPol>
+    </AdresZamieszkaniaSiedziby>
+  </Podmiot1>
+  <PozycjeSzczegolowe>
+    <Grupa1>
+      <P_Da>EE</P_Da>
+      <P_Db>a</P_Db>
+      <P_Dc>2</P_Dc>
+      <P_Dd>2</P_Dd>
+    </Grupa1>
+    <Grupa1>
+      <P_Da>CY</P_Da>
+      <P_Db>b</P_Db>
+      <P_Dc>3</P_Dc>
+      <P_Dd>3</P_Dd>
+    </Grupa1>
+    <Grupa2>
+      <P_Na>ES</P_Na>
+      <P_Nb>c</P_Nb>
+      <P_Nc>4</P_Nc>
+      <P_Nd>4</P_Nd>
+    </Grupa2>
+    <Grupa2>
+      <P_Na>EE</P_Na>
+      <P_Nb>c</P_Nb>
+      <P_Nc>5</P_Nc>
+      <P_Nd>5</P_Nd>
+    </Grupa2>
+    <Grupa3>
+      <P_Ua>IT</P_Ua>
+      <P_Ub>e</P_Ub>
+      <P_Uc>6</P_Uc>
+    </Grupa3>
+    <Grupa3>
+      <P_Ua>ES</P_Ua>
+      <P_Ub>f</P_Ub>
+      <P_Uc>7</P_Uc>
+    </Grupa3>
+  </PozycjeSzczegolowe>
+  <Oswiadczenie>
+    Oświadczam, że są mi znane przepisy Kodeksu karnego skarbowego o odpowiedzialności za podanie danych niezgodnych z rzeczywistością.
+  </Oswiadczenie>
+</Deklaracja>

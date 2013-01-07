@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContainerTitleA" xml:space="preserve">
+    <value>A. MIEJSCE SKŁADANIA INFORMACJI</value>
+  </data>
+  <data name="ContainerTitleB" xml:space="preserve">
+    <value>B. DANE PODATNIKA</value>
+  </data>
+  <data name="ContainerTitleB1" xml:space="preserve">
+    <value>B.1. DANE IDENTYFIKACYJNE</value>
+  </data>
+  <data name="ContainerTitleB2A" xml:space="preserve">
+    <value>B.2. ADRES ZAMIESZKANIA</value>
+  </data>
+  <data name="ContainerTitleB2B" xml:space="preserve">
+    <value>B.2. ADRES SIEDZIBY</value>
+  </data>
+  <data name="ContainerTitleC" xml:space="preserve">
+    <value>C. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYCH DOSTAWACH TOWARÓW</value>
+  </data>
+  <data name="ContainerTitleD" xml:space="preserve">
+    <value>D. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYCH NABYCIACH TOWARÓW</value>
+  </data>
+  <data name="ContainerTitleE" xml:space="preserve">
+    <value>E. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYM ŚWIADCZENIU USUŁUG</value>
+  </data>
+  <data name="ContainerTitleF" xml:space="preserve">
+    <value>F. OŚWIADCZENIE PODATNIKA LUB OSOBY REPREZENTUJĄCEJ PODATNIKA</value>
+  </data>
+  <data name="InfoContent0Label" xml:space="preserve">
+    <value>Podstawa prawna:</value>
+  </data>
+  <data name="InfoContent0Value" xml:space="preserve">
+    <value>Art.100 ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. Nr 54, poz.535, z późn. zm.), zwanej dalej "ustawą".</value>
+  </data>
+  <data name="InfoContent1Label" xml:space="preserve">
+    <value>Składający:</value>
+  </data>
+  <data name="InfoContent1Value" xml:space="preserve">
+    <value>Podatnicy podatku od towaór i usług oraz osoby prawne niebędące podatnikami w rozumieniu art. 15 ustawy - zarejestrowani jako podatnicy VAT UE, dokonujący wewnątrzwspólnotowej dostawy towarów, wewnątrzwspólnotowego nabycia towarów lub wewnątrzwpólnotowego swiadczenia usuług.</value>
+  </data>
+  <data name="InfoContent2Label" xml:space="preserve">
+    <value>Termin składania:</value>
+  </data>
+  <data name="InfoContent2Value" xml:space="preserve">
+    <value>do 15 dnia miesiąca po okresie, za który składana jest informacja.</value>
+  </data>
+  <data name="InfoContent3Label" xml:space="preserve">
+    <value>Miejsce składania:</value>
+  </data>
+  <data name="InfoContent3Value" xml:space="preserve">
+    <value>Podatnicy, o których mowa w art. 15 ustawy, składają informację do urzędu skarbowego właściwego ze względu na miejsce wykonania czynności podlegających opodatkowaniu podatkiem od towarów i usług, a jeżeli czynności te wykonywane są na terenie dwóch lub więcej urzędów skarbowych, to osoby fizyczne składją ją w urzędzie skarbowym właściwym ze względu na miejsce zamieszkania, a osoby prawne i jednostki organizacyjne niemające osobowści prawnej - ze względu na dres siedziby. Podatnicy nieposiadający stałego miejsca zamieszkania lub siedziby albo stałego miejsca prowadzenia działalności na terytorium kraju, informację składają do Drugiego Urzędu Skarbowego Warszawa-Śródmieście. Osoby prawne, niebędące podatnikami w rozumieniu art. 15 ustawy, informację składają do urzędu skarbowego włąściwego ze względu na adres siedziby.</value>
+  </data>
+  <data name="InputTitle1" xml:space="preserve">
+    <value>1. Numer Identyfikacji Podatkowej podatnika</value>
+    <comment>NIP</comment>
+  </data>
+  <data name="InputTitle10" xml:space="preserve">
+    <value>10. Kraj</value>
+  </data>
+  <data name="InputTitle11" xml:space="preserve">
+    <value>11. Województwo</value>
+  </data>
+  <data name="InputTitle12" xml:space="preserve">
+    <value>12. Powiat</value>
+  </data>
+  <data name="InputTitle13" xml:space="preserve">
+    <value>13. Gmina</value>
+  </data>
+  <data name="InputTitle14" xml:space="preserve">
+    <value>14. Ulica</value>
+  </data>
+  <data name="InputTitle15" xml:space="preserve">
+    <value>15. Nr domu</value>
+  </data>
+  <data name="InputTitle16" xml:space="preserve">
+    <value>16. Nr lokalu</value>
+  </data>
+  <data name="InputTitle17" xml:space="preserve">
+    <value>17. Miejscowość</value>
+  </data>
+  <data name="InputTitle18" xml:space="preserve">
+    <value>18. Kod pocztowy</value>
+  </data>
+  <data name="InputTitle19" xml:space="preserve">
+    <value>19. Poczta</value>
+  </data>
+  <data name="InputTitle2" xml:space="preserve">
+    <value>2. Nr dokumentu</value>
+  </data>
+  <data name="InputTitle20" xml:space="preserve">
+    <value>20. Imie</value>
+  </data>
+  <data name="InputTitle21" xml:space="preserve">
+    <value>21. Nazwisko</value>
+  </data>
+  <data name="InputTitle22" xml:space="preserve">
+    <value>22. Telefon kontaktowy</value>
+  </data>
+  <data name="InputTitle23" xml:space="preserve">
+    <value>23. Data wypelnenia</value>
+  </data>
+  <data name="InputTitle24" xml:space="preserve">
+    <value>24. Podpis (i pieczątka) podatnika lub osoby reprezentującej podatnika</value>
+  </data>
+  <data name="InputTitle3" xml:space="preserve">
+    <value>3. Status</value>
+  </data>
+  <data name="InputTitle4" xml:space="preserve">
+    <value>4. Miesiąc</value>
+  </data>
+  <data name="InputTitle5" xml:space="preserve">
+    <value>5. Kwartał</value>
+  </data>
+  <data name="InputTitle6" xml:space="preserve">
+    <value>6. Rok</value>
+  </data>
+  <data name="InputTitle7" xml:space="preserve">
+    <value>7. Urząd skarbowy, do którego adresowana jest informacja</value>
+  </data>
+  <data name="InputTitle8" xml:space="preserve">
+    <value>8. Rodzaj podatnika</value>
+  </data>
+  <data name="InputTitle81" xml:space="preserve">
+    <value>1. Podatnik niebędący osobą fizyczną</value>
+  </data>
+  <data name="InputTitle82" xml:space="preserve">
+    <value>2. Osoba fizyczna</value>
+  </data>
+  <data name="InputTitle9" xml:space="preserve">
+    <value>9. Nazwisko</value>
+  </data>
+  <data name="InputTitle9A" xml:space="preserve">
+    <value>Imię</value>
+  </data>
+  <data name="InputTitle9B" xml:space="preserve">
+    <value>Data Urodzenia</value>
+  </data>
+  <data name="InputTitle9C" xml:space="preserve">
+    <value>Pesel</value>
+  </data>
+  <data name="InputTitle9D" xml:space="preserve">
+    <value>Nazwa pełna</value>
+  </data>
+  <data name="InputTitle9E" xml:space="preserve">
+    <value>Regon</value>
+  </data>
+  <data name="TableHead2CellA" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="TableHead2CellB" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="TableHead2CellC" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="TableHead2CellD" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="TableHeadCellA" xml:space="preserve">
+    <value>Kod kraju</value>
+  </data>
+  <data name="TableHeadCellB" xml:space="preserve">
+    <value>Numer Identyfikacyjny VAT kontrahenta</value>
+  </data>
+  <data name="TableHeadCellC" xml:space="preserve">
+    <value>Kwota transakcji w zł</value>
+  </data>
+  <data name="TableHeadCellD" xml:space="preserve">
+    <value>Transakcje trójstronne</value>
+  </data>
+  <data name="TitleLabel1" xml:space="preserve">
+    <value>VAT-UE</value>
+  </data>
+  <data name="TitleLabel2" xml:space="preserve">
+    <value>INFORMACJA PODSUMOWUJĄCA O DOKONANCYH WEWNĄTRZWSPÓLNOTOWYCH TRANSAKCJACH</value>
+  </data>
+  <data name="TitleLabel3" xml:space="preserve">
+    <value>LUB</value>
+  </data>
+</root>

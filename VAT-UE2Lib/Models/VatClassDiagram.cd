@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DeloitteTest.Models.Deklaracja" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAgIAAAACAAAAAAAAAAECBAAQAABIAAAASAEAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TNaglowek" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgIgAAiiAAAUAAAAQFAiBIAkAgAACgAAAAEAA=</HashCode>
+      <FileName>Models\TNaglowek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TNaglowekKodFormularza" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAACAAAAAAAAABACBCCAAAAAAgAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TAdresZagraniczny" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBgAIgIAiAACAAAAAAAAAAICBCAAAIAAAABAIAMAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TAdresPolski" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBoAIgIAiAADAIAAAQAAAAIDBCAAAIACBABAIAMAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TAdres" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAgAACAAAAAAAQAEACBAAAAAAAAgAAEAEAA=</HashCode>
+      <FileName>Models\TAdres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TIdentyfikatorOsobyNiefizycznej" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAwIAAAACAAAAAAAEAAACBAAAAABCAAAAAAEAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TIdentyfikatorOsobyFizycznej" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIABgIIAAACAAAAAABEAAACBAEAIAAAAAAAgAEAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TPodmiotDowolnyBezAdresu" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAQBCAAAAAAAAAEACBAAAAAAAAgAEAAEAA=</HashCode>
+      <FileName>Models\TPodmiotDowolnyBezAdresu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TPodmiotDowolny" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAACAEAAAAAAAACCBAAAAAAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.TPodmiotDowolnyAdresZamieszkaniaSiedziby" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAACABAAAAAAAAACBAAAAAAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.DeklaracjaPodmiot1" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAACAAAAAAAAABACBAAAAAAAAAAAAgEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.PozycjeSzczegolowe" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAACAAAAAAAAAAACBAAAAAAQAAgAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.Grupa1" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgIAAAACAAhCUAAAgAACBAAAAAAgAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.Grupa2" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgIAAAACAAhCUAAAgAACBAAAAAAgAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeloitteTest.Models.Grupa3" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgIAAAACAAhAUAAAgAACBAAAAAAgAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DeloitteTest.Models.TKodFormularza" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeloitteTest.Models.TKodKraju" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>v37n//+9ame/3/oWjt//55OI9vv/fwSA8NO9HYjA9+4=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeloitteTest.Models.ItemChoiceType" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeloitteTest.Models.TKodUS" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TwDo//+9J7z3+/8HAN57vwYAAO/3AAAA7T0AAAC8vx4=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeloitteTest.Models.TKodKrajuUE" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jgACAAABCACDEkAAAAAAgAAAACIARAAAgAEAEABAQIg=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeloitteTest.Models.DeklaracjaOswiadczenie" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

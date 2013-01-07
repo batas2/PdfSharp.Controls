@@ -1,0 +1,44 @@
+﻿<Window x:Class="PdfSharpControls.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wf="clr-namespace:PdfSharpControls"
+        Title="VAT-UE(2)_v1-0 - Bartosz Frąckowiak" Height="380" Width="545" Closing="Window_Closing" WindowState="Maximized">
+    <DockPanel LastChildFill="True">
+        <DockPanel LastChildFill="True" DockPanel.Dock="Right" Width="250">
+            <DockPanel LastChildFill="True">
+                <GroupBox Height="100" DockPanel.Dock="Bottom">
+                    <GroupBox.Header>Opcje</GroupBox.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Button Grid.Column="0" Grid.Row="0" Content="Wczytaj" Name="btnLoad" Click="btnLoad_Click" />
+                        <Button Grid.Column="1" Grid.Row="0" Content="Drukuj" Name="btnPrint" Click="btnPrint_Click" />
+                        <Button Grid.Column="1" Grid.Row="1" Content="Zapisz PDF" Name="btnSave" Click="btnSave_Click" />
+                        <DockPanel Grid.Column="0" Grid.Row="1" LastChildFill="True">
+                            <Button DockPanel.Dock="Left" MinWidth="60" Content="PDF" Name="btnOpenPdf"
+                                    Click="btnOpenPdf_Click" />
+                            <Button DockPanel.Dock="Left" MinWidth="60" Content="XML" Name="btnOpenXml"
+                                    Click="btnOpen_Click" />
+                        </DockPanel>
+                    </Grid>
+                </GroupBox>
+                <GroupBox>
+                    <GroupBox.Header>Pliki xml</GroupBox.Header>
+                    <ListView SelectionMode="Single" Name="lstViewPdfFile"
+                              MouseDoubleClick="lstViewPdfFile_MouseDoubleClick">
+                    </ListView>
+                </GroupBox>
+            </DockPanel>
+        </DockPanel>
+        <DockPanel LastChildFill="True" DockPanel.Dock="Left">
+            <GroupBox>
+                <GroupBox.Header>Podgląd</GroupBox.Header>
+                <wf:PdfViewerHost x:Name="PdfViewer" />
+            </GroupBox>
+        </DockPanel>
+    </DockPanel>
+</Window>
